@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<?php
+session_start();
+?>
+<html>
+<head>
+    <link href="login form.css" rel="stylesheet" type="text/css">
+    <title> Form Registrasi </title>
+</head>
+
+
+<form action="gus.html">
+  <div class="imgcontainer">
+    <img src="https://i.gifer.com/OOA.gif" width="300px" height="400px" align="center" alt="hi.gif" class="gif">
+  </div>
+ <!-- inputan -->
+  <div class="container">
+    <label for="Nama"><b>Nama</b></label>
+    <input type="text" placeholder="Masukkan Nama" name="name" required>
+
+    <label for="Email"><b>Email</b></label>
+    <input type="text" placeholder="example@gmail.com" name="Email" required>
+	
+	
+	<!-- Password field -->
+	Password: <input type="password" placeholder="lowercase,min 6 font,max 10 font" value="FakePSW" id="myInput" minlength="6"maxlength="10" required>
+
+	<!-- An element to toggle between password visibility -->
+	<input type="checkbox" onclick="myFunction(Password)" >Show Password
+	
+	
+	
+	
+	<button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+  
+
+
+
+  
+</form>
+}
